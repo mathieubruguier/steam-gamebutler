@@ -1,0 +1,47 @@
+{
+  "name": "steam-gamebutler",
+  "version": "0.0.1",
+  "description": "Gabi the Game Butler helps you find gamers to play with, in real time, depending on YOUR filters.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieubruguier/steam-gamebutler.git"
+  },
+  "keywords": [
+    "steam",
+    "game",
+    "friends",
+    "gamer"
+  ],
+  "author": "pankee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathieubruguier/steam-gamebutler/issues"
+  },
+  "homepage": "https://github.com/mathieubruguier/steam-gamebutler#readme",
+  "devDependencies": {
+    "@types/lowdb": "^0.15.0",
+    "@types/node": "^8.0.57",
+    "@types/winston": "^2.3.7",
+    "codelyzer": "^4.0.1",
+    "nodemon": "^1.12.5",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "figlet": "^1.2.0",
+    "fs": "0.0.1-security",
+    "lowdb": "^1.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "steam-user": "^3.23.2",
+    "string-similarity": "^1.2.0",
+    "winston": "^2.4.0"
+  }
+}

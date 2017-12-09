@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "steamId": {
+        "universe": 1,
+        "type": 1,
+        "instance": 1,
+        "accountid": 39485548
+      },
+      "conversationState": 0,
+      "discord": "",
+      "region": "",
+      "id": 39485548
+    }
+  ]
+}
